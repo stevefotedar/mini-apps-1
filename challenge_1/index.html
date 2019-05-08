@@ -1,2 +1,43 @@
-
-
+<!DOCTYPE html>
+<html>
+  <style>
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse
+  }
+  td {
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+    text-align: center
+  }
+  </style>
+  <head>
+    Tic Tac Toe
+  </head>
+  <body>
+    <table id="board">
+      <tr>
+        <td id ="11"></td>
+        <td id="12"></td>
+        <td id="13"></td>
+      </tr>
+      <tr>
+        <td id ="21"></td>
+        <td id="22"></td>
+        <td id="23"></td>
+      </tr>
+      <tr>
+        <td id ="31"></td>
+        <td id="32"></td>
+        <td id="33"></td>
+      </tr>
+    </table>
+    <div class="score">
+      <div id="x">X - 0</div>
+      <div id="o">O - 0</div>
+    </div>
+    <button id="reset">RESET GAME</button>
+    <script src="app.js"></script>
+  </body>
+</html>
